@@ -209,4 +209,28 @@
     <string name="pantry_item_error_connection">Connection error. Check your network.</string>
     <string name="pantry_item_error_generic">Unexpected error: %1$s</string>
 
+    <!-- Shopping List error messages -->
+    <string name="shopping_list_error_bad_request">Invalid shopping list data. Please check all fields.</string>
+    <string name="shopping_list_error_unauthorized">Unauthorized. Please log in again.</string>
+    <string name="shopping_list_error_forbidden">Forbidden. You don\'t have permission to perform this action.</string>
+    <string name="shopping_list_error_conflict">Shopping list already exists.</string>
+    <string name="shopping_list_error_not_found">Shopping list not found.</string>
+    <string name="shopping_list_error_user_not_found">User not found. Please check the email address.</string>
+    <string name="shopping_list_error_server">Server error. Please try again later.</string>
+    <string name="shopping_list_error_unexpected">Shopping list error (%1$d).</string>
+    <string name="shopping_list_error_connection">Connection error. Check your network.</string>
+    <string name="shopping_list_error_generic">Unexpected error: %1$s</string>
+
+    <!-- Shopping List screen strings -->
+    <string name="new_list">New List</string>
+    <string name="new_list_icon_description">Add new list</string>
+    <string name="new_list_dialog_title">New Shopping List</string>
+    <string name="list_name_placeholder">Shopping list name</string>
+    <string name="search_lists">Search Lists</string>
+    <string name="add_products_to_list">Add Products to List</string>
+    <string name="select_products">Select products:</string>
+    <string name="selected_products">Products selected:</string>
+    <string name="products_added">products added</string>
+    <string name="create">Create</string>
+
 </resources>

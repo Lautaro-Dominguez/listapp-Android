@@ -6,6 +6,9 @@
     <string name="profile">Perfil</string>
     <string name="new_category">Nueva categoría</string>
     <string name="search_in_pantry">Buscar en Despensa</string>
+    <string name="new_pantry">Nueva Despensa</string>
+    <string name="pantry_name_placeholder">Nombre de la despensa</string>
+    <string name="add_pantry_icon_description">Agregar despensa</string>
     <string name="search_products">Buscar Productos</string>
     <string name="new_category_dialog_title">Nueva categoría</string>
     <string name="name_label">Nombre:</string>
@@ -52,6 +55,15 @@
     <string name="reset_password_resend_prompt">¿No recibió el código? </string>
     <string name="reset_password_resend_link">Reenviar código</string>
     <string name="add_product">Agregar producto</string>
+    <string name="add_to_pantry">Agregar a la Despensa</string>
+    <string name="select_product">Selecciona un producto:</string>
+    <string name="search_product">Buscar producto...</string>
+    <string name="no_products_found">No se encontraron productos</string>
+    <string name="quantity">Cantidad</string>
+    <string name="quantity_error">Por favor, ingresá una cantidad válida</string>
+    <string name="unit_optional">Unidad</string>
+    <string name="unit_placeholder">kg, L, unidades</string>
+    <string name="change">Cambiar</string>
     <string name="product_name">Nombre del producto</string>
     <string name="product_name_placeholder">Nombre del producto</string>
     <string name="emoji">Emoji</string>
@@ -175,6 +187,50 @@
     <string name="product_error_connection">Error de conexión. Verificá tu red.</string>
     <string name="product_error_generic">Error inesperado: %1$s</string>
 
+    <!-- Pantry error messages -->
+    <string name="pantry_error_bad_request">Datos de despensa inválidos. Verificá los campos.</string>
+    <string name="pantry_error_unauthorized">No autorizado. Por favor, iniciá sesión nuevamente.</string>
+    <string name="pantry_error_forbidden">Prohibido. No tenés permiso para realizar esta acción.</string>
+    <string name="pantry_error_conflict">La despensa ya existe.</string>
+    <string name="pantry_error_not_found">Despensa no encontrada.</string>
+    <string name="pantry_error_user_not_found">Usuario no encontrado. Verificá la dirección de correo.</string>
+    <string name="pantry_error_server">Error del servidor. Intentá más tarde.</string>
+    <string name="pantry_error_unexpected">Error de despensa (%1$d).</string>
+    <string name="pantry_error_connection">Error de conexión. Verificá tu red.</string>
+    <string name="pantry_error_generic">Error inesperado: %1$s</string>
 
+    <!-- Pantry Item error messages -->
+    <string name="pantry_item_error_bad_request">Datos de elemento de despensa inválidos. Verificá los campos.</string>
+    <string name="pantry_item_error_unauthorized">No autorizado. Por favor, iniciá sesión nuevamente.</string>
+    <string name="pantry_item_error_conflict">El elemento ya existe en la despensa.</string>
+    <string name="pantry_item_error_not_found">Elemento de despensa no encontrado.</string>
+    <string name="pantry_item_error_server">Error del servidor. Intentá más tarde.</string>
+    <string name="pantry_item_error_unexpected">Error de elemento de despensa (%1$d).</string>
+    <string name="pantry_item_error_connection">Error de conexión. Verificá tu red.</string>
+    <string name="pantry_item_error_generic">Error inesperado: %1$s</string>
+
+    <!-- Shopping List error messages -->
+    <string name="shopping_list_error_bad_request">Datos de lista de compras inválidos. Verificá los campos.</string>
+    <string name="shopping_list_error_unauthorized">No autorizado. Por favor, iniciá sesión nuevamente.</string>
+    <string name="shopping_list_error_forbidden">Prohibido. No tenés permiso para realizar esta acción.</string>
+    <string name="shopping_list_error_conflict">La lista de compras ya existe.</string>
+    <string name="shopping_list_error_not_found">Lista de compras no encontrada.</string>
+    <string name="shopping_list_error_user_not_found">Usuario no encontrado. Verificá la dirección de correo.</string>
+    <string name="shopping_list_error_server">Error del servidor. Intentá más tarde.</string>
+    <string name="shopping_list_error_unexpected">Error de lista de compras (%1$d).</string>
+    <string name="shopping_list_error_connection">Error de conexión. Verificá tu red.</string>
+    <string name="shopping_list_error_generic">Error inesperado: %1$s</string>
+
+    <!-- Shopping List screen strings -->
+    <string name="new_list">Nueva Lista</string>
+    <string name="new_list_icon_description">Agregar nueva lista</string>
+    <string name="new_list_dialog_title">Nueva Lista de Compras</string>
+    <string name="list_name_placeholder">Nombre de la lista de compras</string>
+    <string name="search_lists">Buscar Listas</string>
+    <string name="add_products_to_list">Agregar Productos a la Lista</string>
+    <string name="select_products">Selecciona productos:</string>
+    <string name="selected_products">Productos seleccionados:</string>
+    <string name="products_added">productos agregados</string>
+    <string name="create">Crear</string>
 
 </resources>
