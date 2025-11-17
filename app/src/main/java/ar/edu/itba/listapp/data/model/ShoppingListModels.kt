@@ -17,6 +17,8 @@ data class ShoppingList(
 @Serializable
 data class CreateShoppingListRequest(
     val name: String,
+    val description: String = "",
+    val recurring: Boolean = true,
     val metadata: Map<String, String>? = null
 )
 

@@ -119,7 +119,12 @@ class ListRepository(
     suspend fun createShoppingList(name: String, metadata: Map<String, String> = emptyMap()): CreateShoppingListResult =
         withContext(dispatcher) {
             try {
-                val request = CreateShoppingListRequest(name, metadata)
+                val request = CreateShoppingListRequest(
+                    name = name,
+                    description = "",
+                    recurring = true,
+                    metadata = metadata
+                )
                 val list = service.createShoppingList(request)
                 CreateShoppingListResult.Success(list)
             } catch (httpException: HttpException) {
